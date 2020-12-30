@@ -31,18 +31,19 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 
 **Notes on tasks:**
 
-&ensp; a. Utilizing modified Agile Framework with MVP milestones at set stages.  
-&ensp; f. Datasets
-       - Primary:  
-         - Crime_Data *Obtained from CoP Crime Datasets  
-         - Housing_Data *Obtain from CoP or Oregon State data website (API)  
-      - Secondary:    
-         - Zip-code info associated with unique Portland Areas  
-         - Zip-code info associated with housing data addresses  
+a. Utilizing modified Agile Framework with MVP milestones at set stages.  
 
-&ensp; g. Code naming convention  
-       - Variables (single value):  camelCase  
-       - Lists/Arrays:  name_name  
+f. Datasets
+   - Primary:  
+     - Crime_Data *Obtained from CoP Crime Datasets  
+     - Housing_Data *Obtain from CoP or Oregon State data website (API)  
+   - Secondary:    
+     - Zip-code info associated with unique Portland Areas  
+     - Zip-code info associated with housing data addresses  
+
+g. Code naming convention  
+   - Variables (single value):  camelCase  
+   - Lists/Arrays:  name_name  
 
 ### Section 2. Framework
 
