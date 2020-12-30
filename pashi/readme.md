@@ -22,28 +22,28 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 
   f. Datasets
     - Primary:  
-      1.	Crime_Data *Obtained from CoP Crime Datasets
-      2.	Housing_Data *Obtain from CoP or Oregon State data website (API)
-    - Secondary:  
-      1.	Zip-code info associated with unique Portland Areas
-      2.	Zip-code info associated with housing data addresses
+      1.	Crime_Data *Obtained from CoP Crime Datasets  
+      2.	Housing_Data *Obtain from CoP or Oregon State data website (API)  
+    - Secondary:    
+      1.	Zip-code info associated with unique Portland Areas  
+      2.	Zip-code info associated with housing data addresses  
 
-  g. Code naming convention
-    - Variables (single value):  camelCase
-    - Lists/Arrays:  name_name
+  g. Code naming convention  
+    - Variables (single value):  camelCase  
+    - Lists/Arrays:  name_name  
 
-**Framework**
+**Framework**  
 
-  Tasks:
-  - [ ] Frame out models
-  - [ ] Frame out models
-  - [ ] Frame out models
+  Tasks:  
+  - [ ] Frame out models  
+  - [ ] Frame out models  
+  - [ ] Frame out models  
 
-Datasets:
-  Primary:  
-    1.	Crime_Data *Obtained from CoP Crime Datasets
-    2.	Housing_Data *Obtain from CoP or Oregon State data website (API)
+Datasets:  
+  Primary:    
+    1.	Crime_Data *Obtained from CoP Crime Datasets  
+    2.	Housing_Data *Obtain from CoP or Oregon State data website (API)  
 
-  Secondary:  
-    1.	Zip-code info associated with unique Portland Areas
-    2.	Zip-code info associated with housing data addresses
+  Secondary:    
+    1.	Zip-code info associated with unique Portland Areas  
+    2.	Zip-code info associated with housing data addresses  
