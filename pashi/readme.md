@@ -4,7 +4,7 @@
 
 ### Project Information
 
-Obtaining affordable housing in Portland is challenging; finding affordable housing that is also safe and desirable is even more challenging especially for those in need.  This app is designed to allow users to view their options and make informed decisions based on a location factoring in its safety for themselves and/or families.
+Obtaining affordable housing in the City of Portland (CoP) is challenging; finding affordable housing that is also safe and desirable is even more challenging especially for those in need.  This app is designed to allow users to view their options and make informed decisions based on a location factoring in its safety for themselves and/or families.
 
 ### Project Framework
 
@@ -32,7 +32,7 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
   - [x] a. Intro to Github and project management
   - [x] b. Buildout hosting area / Set up file structure
   - [x] c. Setup app documentation and formatting style (readme.md)
-  - [ ] d. Create project milestone framework
+  - [x] d. Create project milestone framework
   - [x] e. White board project
   - [x] f. Identify data required
   - [ ] g. Model the models
@@ -60,6 +60,26 @@ h. Code naming convention
    - [ ] Frame out models  
    - [ ] Frame out models  
    - [ ] Frame out models  
+
+### S3a. Dataset Prep
+
+  **Tasks:**
+  - [x] a. Pull in datasets from CoP or figure out if an API call would work
+  - [x] a. Pull in zip code dataset based on Portland neighborhoods
+
+  **Crime Data Methodology:**
+
+  '''Raw Crime Data -> Scrub for anomalies and null data -> merge data with zip code dataset -> Rank Crimes based on severity (i.e. arbitrary value) -> add up value of crimes based on zip codes  
+  crime_index = {‘zipcode’: intValue}'''
+
+**Integrity and accuracy:**  
+Testing ongoing at each stage of manipulation to ensure data integrity.  
+
+**Discussion on dataset logic**:  
+The crime_index could be derived in a number of ways; however, for the purposes of this app/project, the value of the offense type will be given a value of 1-20 (i.e. murder = 20, parking violation = 1) and then summed by zip-code to develop an ‘index’.  This methodology could potentially skew data (in a circumstance of a high murder rate, low overall occurance of crime), however, it appears to make the most sense over counting the number of crimes in an area (i.e. averaging data based on the severity of crime vs. treating all crimes as equal).  
+
+
+
 
 
 
