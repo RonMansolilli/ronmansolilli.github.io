@@ -23,8 +23,8 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
   | ------------- | ------------- |
   | S1. Admin Finish | S2. (MVP) Framing Finish  | S3b. (MVP) Backend Finish | S5. (MVP) UX Dev Start/Finish |
   | S2. Framing Start | S3a. Prep Data Start/Finish  | S4. (MVP) Frontend Start/Finish | S6. Testing/Rollout |
-  |                   | S3b. Backend Start |
-  
+  |                   | S3b. Backend Start           |                                 |                     |
+
 ### S1. Administration
 
 **Tasks:**
