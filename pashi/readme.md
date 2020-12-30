@@ -1,5 +1,6 @@
 ## PASHI Documentation ##
-*Portland Affordable, Safe Housing Initiative*
+**PASHI - Portland Affordable, Safe Housing Initiative**
+*"Giving those in need an ability to find, not only affordable, but SAFE housing in the City of Portland."*
 
 **Administration**
 
