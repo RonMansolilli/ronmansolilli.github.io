@@ -13,31 +13,31 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
   - [x] b. Buildout hosting area / Set up file structure
   - [x] c. Setup app documentation (readme.md)
   - [ ] d. Create project / milestone framework
-  - [ ] e. White board project
+  - [x] e. White board project
   - [ ] f. Identify data required
   - [ ] g. Model the models
   - [x] h. Naming conventions/general coding notes
 
   Notes on tasks:
 
-  f. Datasets
-    - Primary:  
-      1.	Crime_Data *Obtained from CoP Crime Datasets  
-      2.	Housing_Data *Obtain from CoP or Oregon State data website (API)  
-    - Secondary:    
-      1.	Zip-code info associated with unique Portland Areas  
-      2.	Zip-code info associated with housing data addresses  
+  - f. Datasets
+     - Primary:  
+       - 1.	Crime_Data *Obtained from CoP Crime Datasets  
+       - 2.	Housing_Data *Obtain from CoP or Oregon State data website (API)  
+     - Secondary:    
+       - 1.	Zip-code info associated with unique Portland Areas  
+       - 2.	Zip-code info associated with housing data addresses  
 
-  g. Code naming convention  
-    - Variables (single value):  camelCase  
-    - Lists/Arrays:  name_name  
+  - g. Code naming convention  
+     - Variables (single value):  camelCase  
+     - Lists/Arrays:  name_name  
 
 **Framework**  
 
   Tasks:  
-  - [ ] Frame out models  
-  - [ ] Frame out models  
-  - [ ] Frame out models  
+   - [ ] Frame out models  
+   - [ ] Frame out models  
+   - [ ] Frame out models  
 
 Datasets:  
   Primary:    
@@ -47,3 +47,8 @@ Datasets:
   Secondary:    
     1.	Zip-code info associated with unique Portland Areas  
     2.	Zip-code info associated with housing data addresses  
+
+    First Header | Second Header
+  ------------ | -------------
+  Content from cell 1 | Content from cell 2
+  Content in the first column | Content in the second column
