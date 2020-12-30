@@ -68,12 +68,12 @@ h. Code naming convention
   - [x] a. Pull in zip code dataset based on Portland neighborhoods
 
   **Crime Data Methodology:**
-
-
 ```
-Raw Crime Data -> Scrub for anomalies and null data -> merge data with zip
-code dataset -> Rank Crimes based on severity (i.e. arbitrary value) -> add up
-value of crimes based on zip codes  <br>
+-> Raw Crime Data ->  
+Scrub for anomalies and null data -> merge data with zip code dataset ->  
+rank Crimes based on severity (i.e. assign value) ->  
+add up value of crimes based on zip codes  <br>
+<br>
 **crime_index = {‘zipcode’: intValue}**  <br>
 ```
 
