@@ -69,12 +69,12 @@ h. Code naming convention
 
   **Crime Data Methodology:**
 ```
--> Raw Crime Data ->  
-Scrub for anomalies and null data -> merge data with zip code dataset ->  
-rank Crimes based on severity (i.e. assign value) ->  
-add up value of crimes based on zip codes  <br>
-<br>
-**crime_index = {‘zipcode’: intValue}**  <br>
+-> Raw Crime Data -> Scrub for anomalies and null data  
+-> merge data with zip code dataset   
+-> rank Crimes based on severity (i.e. assign value)   
+-> add up value of crimes based on zip codes   
+
+**crime_index = {‘zipcode’: intValue}**    
 ```
 
 **Integrity and accuracy:**  
