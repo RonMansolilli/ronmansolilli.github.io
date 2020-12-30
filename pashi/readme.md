@@ -6,14 +6,24 @@
 
 Obtaining affordable housing in Portland is challenging; finding affordable housing that is also safe and desirable is even more challenging especially for those in need.  This app is designed to allow users to view their options and make informed decisions based on a location factoring in its safety for themselves and/or families.
 
-### Administration
+### Project Framework
+
+Section 1.  Administration.  Setting up project admin, mapping project, etc.
+Section 2.  App Framework.  Building out shell and UXI.  Ensuring user login works.  
+Section 3a.  Prepping Datasets.  Building out datasets with appropriate data.
+Section 3b.  App Backend.  Building out models and API.  
+Section 4.  App Frontend.  Adding functionality to the UXI - making search/output functions usable.
+Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.
+Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.
+
+### Section 1. Administration
 
 **Tasks:**
 
   - [x] a. Intro to Github and project management
   - [x] b. Buildout hosting area / Set up file structure
-  - [x] c. Setup app documentation (readme.md)
-  - [ ] d. Create project / milestone framework
+  - [x] c. Setup app documentation and formatting style (readme.md)
+  - [ ] d. Create project milestone framework
   - [x] e. White board project
   - [ ] f. Identify data required
   - [ ] g. Model the models
@@ -21,6 +31,7 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 
 **Notes on tasks:**
 
+  - a. Utilizing modified Agile Framework with MVP milestones at set stages.  
   - f. Datasets
      - Primary:  
        - Crime_Data *Obtained from CoP Crime Datasets  
@@ -33,7 +44,7 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
      - Variables (single value):  camelCase  
      - Lists/Arrays:  name_name  
 
-### Framework
+### Section 2. Framework
 
   **Tasks:**
    - [ ] Frame out models  
