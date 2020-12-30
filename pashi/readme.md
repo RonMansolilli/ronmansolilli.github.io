@@ -71,8 +71,10 @@ h. Code naming convention
 
 
 ```
-Raw Crime Data -> Scrub for anomalies and null data -> merge data with zip code dataset -> Rank Crimes based on severity (i.e. arbitrary value) -> add up value of crimes based on zip codes  
-**crime_index = {‘zipcode’: intValue}**  
+Raw Crime Data -> Scrub for anomalies and null data -> merge data with zip
+code dataset -> Rank Crimes based on severity (i.e. arbitrary value) -> add up
+value of crimes based on zip codes  <br>
+**crime_index = {‘zipcode’: intValue}**  <br>
 ```
 
 **Integrity and accuracy:**  
