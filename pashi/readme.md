@@ -8,13 +8,13 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 
 ### Project Framework
 
-Section 1.  Administration.  Setting up project admin, mapping project, etc.
-Section 2.  App Framework.  Building out shell and UXI.  Ensuring user login works.  
-Section 3a.  Prepping Datasets.  Building out datasets with appropriate data.
-Section 3b.  App Backend.  Building out models and API.  
-Section 4.  App Frontend.  Adding functionality to the UXI - making search/output functions usable.
-Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.
-Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.
+&ensp; Section 1.  Administration.  Setting up project admin, mapping project, etc.  
+&ensp; Section 2.  App Framework.  Building out shell and UXI.  Ensuring user login works.    
+&ensp; Section 3a.  Prepping Datasets.  Building out datasets with appropriate data.  
+&ensp; Section 3b.  App Backend.  Building out models and API.    
+&ensp; Section 4.  App Frontend.  Adding functionality to the UXI - making search/output functions usable.  
+&ensp; Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.  
+&ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
 
 ### Section 1. Administration
 
