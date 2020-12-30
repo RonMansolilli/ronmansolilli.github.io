@@ -1,13 +1,13 @@
-PASHI Documentation
-(Portland Affordable, Safe Housing Initiative)
+## PASHI Documentation ##
+*Portland Affordable, Safe Housing Initiative*
 
-Administration
+**Administration**
 
 Tasks:
 - [ ] Figure out Github
-- Buildout hosting area / Set up file structure
-- Setup app documentation (readme.md)
-- Create project / milestone framework
-- White board project 
-- Model the models
+- [ ] Buildout hosting area / Set up file structure
+- [ ] Setup app documentation (readme.md)
+- [ ] Create project / milestone framework
+- [ ] White board project 
+- [ ] Model the models
 
