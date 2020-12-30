@@ -11,8 +11,8 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
 &ensp; Section 1.  Administration.  Setting up project admin, mapping project, etc.  
 &ensp; Section 2.  App Framework.  Building out shell and UXI.  Ensuring user login works.    
 &ensp; Section 3a.  Prepping Datasets.  Building out datasets with appropriate data.  
-&ensp; Section 3b.  App Backend.  Building out models and API.    
-&ensp; Section 4.  App Frontend.  Adding functionality to the UXI - making search/output functions usable.  
+&ensp; Section 3b.  App Backend.  Building out models, logic, and API.    
+&ensp; Section 4.  App Frontend.  Add functionality to the UXI - make input/output functions usable.  
 &ensp; Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.  
 &ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
 
@@ -57,25 +57,40 @@ h. Code naming convention
 ### S2. App Framework
 
   **Tasks:**
-   - [ ] Frame out models  
-   - [ ] Frame out models  
-   - [ ] Frame out models  
+   - [ ] a. Build django framework in project folder
+   - [ ] b. Build out first model, test  
+   - [ ] c. Build CSS Structure with place holders
+   - [ ] d. Build User functionality (login)
+
+
 
 ### S3a. Dataset Prep
 
   **Tasks:**
-  - [x] a. Pull in datasets from CoP or figure out if an API call would work
-  - [x] a. Pull in zip code dataset based on Portland neighborhoods
+  - [ ] a. Pull datasets from CoP or figure out if an API call would work
+  - [ ] b. Pull zip code dataset based on Portland neighborhoods
+  - [x] c. Pull 2020 crime dataset from CoP crime data site
 
   **Crime Data Methodology:**
 ```
--> Raw Crime Data -> Scrub for anomalies and null data  
+-> raw Crime Data -> Scrub for anomalies and null data  
 -> merge data with zip code dataset   
 -> rank Crimes based on severity (i.e. assign value)   
--> add up value of crimes based on zip codes   
+-> add up value of crimes based on zip codes (intValue)
 
-**crime_index = {‘zipcode’: intValue}**    
+**crime_index = [{'id' : idNum, ‘zipCode#’: intValue,}]**    
 ```
+  **Housing Data Methodology:**  
+```  
+-> raw Housing Data (or API)  
+-> scrub and sanitize  
+-> merge data with zip code data based on addresses (create new column)
+
+**housing_data = [{'id' : idNum, 'zipCode' : 'zipCode#', etc., }]**
+```  
+
+
+
 
 **Integrity and accuracy:**  
 Testing ongoing at each stage of manipulation to ensure data integrity.  
