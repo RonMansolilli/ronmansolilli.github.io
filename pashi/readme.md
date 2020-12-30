@@ -62,35 +62,33 @@ h. Code naming convention
    - [ ] c. Build CSS Structure with place holders
    - [ ] d. Build User functionality (login)
 
-
-
 ### S3a. Dataset Prep
 
   **Tasks:**
   - [ ] a. Pull datasets from CoP or figure out if an API call would work
   - [ ] b. Pull zip code dataset based on Portland neighborhoods
-  - [x] c. Pull 2020 crime dataset from CoP crime data site
+  - [x] c. Pull 2020 crime dataset from CoP crime data site and evaluate
+  - [ ] d. Build out crime_index as noted in methodology
+  - [ ] e. Build out housing_data as noted in methodology
+
 
   **Crime Data Methodology:**
 ```
--> raw Crime Data -> Scrub for anomalies and null data  
+-> raw Crime Data -> scrub for anomalies and null data  
 -> merge data with zip code dataset   
--> rank Crimes based on severity (i.e. assign value)   
--> add up value of crimes based on zip codes (intValue)
+-> rank Crimes based on severity (i.e. assign value -> new field)   
+-> add up value of crimes based on zip codes (intValue) -> new list crime_index
 
-**crime_index = [{'id' : idNum, ‘zipCode#’: intValue,}]**    
+**crime_index = [{'id' : idNum, ‘zipCode#’: intValue,}]**  
+(better name? safety_rank?)  
 ```
   **Housing Data Methodology:**  
 ```  
--> raw Housing Data (or API)  
--> scrub and sanitize  
--> merge data with zip code data based on addresses (create new column)
+-> raw Housing Data (or API) -> scrub and sanitize  
+-> merge data with zip code data based on addresses (create new field)
 
 **housing_data = [{'id' : idNum, 'zipCode' : 'zipCode#', etc., }]**
 ```  
-
-
-
 
 **Integrity and accuracy:**  
 Testing ongoing at each stage of manipulation to ensure data integrity.  
@@ -98,6 +96,49 @@ Testing ongoing at each stage of manipulation to ensure data integrity.
 **Discussion on dataset logic**:  
 The crime_index could be derived in a number of ways; however, for the purposes of this app/project, the value of the offense type will be given a value of 1-20 (i.e. murder = 20, parking violation = 1) and then summed by zip-code to develop an ‘index’.  This methodology could potentially skew data (in a circumstance of a high murder rate, low overall occurance of crime), however, it appears to make the most sense over counting the number of crimes in an area (i.e. averaging data based on the severity of crime vs. treating all crimes as equal).  
 
+### S3a. Backend
+
+  **Tasks:**
+  - [ ] a. Build out Models
+  - [ ] a. Build out API
+  - [ ] a. Test models
+
+  **Models**
+
+  ```
+  crime_index = [
+    {'id' : sysAssigned,
+    ‘zipCode#’: intValue,}
+  ]
+  ```
+  ```
+  housing_data = [
+    {'id' : idNum,
+    'zipCode' : 'string',
+    'address' : 'string',
+    'phoneContact' : 'string',
+    }
+  ]
+  ```
+  ```
+  user_data = [
+    {'id' : sysAssigned,
+    'userName : 'string',
+    'userPwd : sysAssigned,
+    'firstName' : 'string',
+    'lastName' : 'string',
+  }
+  ]
+  ```
+  ```
+  join_table = [
+    {'id' : sysAssigned,
+    'user_data.id' : integer,
+    'housing_data.id' : integer,
+    'userNotes' : 'string',
+    }
+  ]
+  ```
 
 
 
