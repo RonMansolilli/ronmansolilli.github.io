@@ -16,7 +16,16 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 &ensp; Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.  
 &ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
 
-### Section 1. Administration
+### Project Milestones
+
+
+  | Week 1  | Week 2 | Week 3 | Week 4 |
+  | ------------- | ------------- |
+  | S1. Admin Finish | S2. (MVP) Framing Finish  | S3b. (MVP) Backend Finish | S5. (MVP) UX Dev Start/Finish |
+  | S2. Framing Start | S3a. Prep Data Start/Finish  | S4. (MVP) Frontend Start/Finish | S6. Testing/Rollout |
+  |                   | S3b. Backend Start |
+  
+### S1. Administration
 
 **Tasks:**
 
@@ -25,7 +34,7 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
   - [x] c. Setup app documentation and formatting style (readme.md)
   - [ ] d. Create project milestone framework
   - [x] e. White board project
-  - [ ] f. Identify data required
+  - [x] f. Identify data required
   - [ ] g. Model the models
   - [x] h. Naming conventions/general coding notes
 
@@ -41,11 +50,11 @@ f. Datasets
      - Zip-code info associated with unique Portland Areas  
      - Zip-code info associated with housing data addresses  
 
-g. Code naming convention  
+h. Code naming convention  
    - Variables (single value):  camelCase  
    - Lists/Arrays:  name_name  
 
-### Section 2. Framework
+### S2. App Framework
 
   **Tasks:**
    - [ ] Frame out models  
