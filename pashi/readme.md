@@ -4,7 +4,7 @@ PASHI Documentation
 Administration
 
 Tasks:
-- Figure out Github
+- [ ] Figure out Github
 - Buildout hosting area / Set up file structure
 - Setup app documentation (readme.md)
 - Create project / milestone framework
