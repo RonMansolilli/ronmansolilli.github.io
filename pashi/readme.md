@@ -22,11 +22,11 @@ Obtaining affordable housing in Portland is challenging; finding affordable hous
 
   - f. Datasets
      - Primary:  
-       - 1.	Crime_Data *Obtained from CoP Crime Datasets  
-       - 2.	Housing_Data *Obtain from CoP or Oregon State data website (API)  
+       - Crime_Data *Obtained from CoP Crime Datasets  
+       - Housing_Data *Obtain from CoP or Oregon State data website (API)  
      - Secondary:    
-       - 1.	Zip-code info associated with unique Portland Areas  
-       - 2.	Zip-code info associated with housing data addresses  
+       - Zip-code info associated with unique Portland Areas  
+       - Zip-code info associated with housing data addresses  
 
   - g. Code naming convention  
      - Variables (single value):  camelCase  
