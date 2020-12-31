@@ -106,13 +106,13 @@ The crime_index could be derived in a number of ways; however, for the purposes 
   **Models**
 
   ```
-  crime_index = [
-    {'id' : sysAssigned,
-    ‘zipCode#’: intValue,}
+  crime_index = [               // Crime index
+    {'id' : sysAssigned,        // * Utilize to rank locations
+    ‘zipCode#’: intValue,}      // * Ties broken by overall crime occurence
   ]
   ```
   ```
-  housing_data = [
+  housing_data = [             // Housing data with incorporated zip data
     {'id' : idNum,
     'zipCode' : 'string',
     'address' : 'string',
@@ -121,17 +121,17 @@ The crime_index could be derived in a number of ways; however, for the purposes 
   ]
   ```
   ```
-  user_data = [
+  user_data = [                  // Standard user data
     {'id' : sysAssigned,
     'userName : 'string',
     'userPwd : sysAssigned,
     'firstName' : 'string',
     'lastName' : 'string',
-  }
+    }
   ]
   ```
   ```
-  join_table = [
+  join_table = [                 // Join table will link users to saved housing units
     {'id' : sysAssigned,
     'user_data.id' : integer,
     'housing_data.id' : integer,
@@ -139,6 +139,15 @@ The crime_index could be derived in a number of ways; however, for the purposes 
     }
   ]
   ```
+
+### S4. Frontend  
+
+  **Tasks:**
+  - [ ] a. Build
+
+
+
+
 
 
 
