@@ -13,7 +13,7 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
 - Allow users to login, establish profile, save units, and make notes.  
 - Designed for mobile use (those in need may not have access to computers)
 
-### Project Framework
+### Project Outline
 
 &ensp; Section 1.  Administration.  Setting up project admin, mapping project, etc.  
 &ensp; Section 2.  App Framework.  Building out shell and UXI.  Ensuring user login works.    
@@ -24,13 +24,6 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
 &ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
 &ensp; Section 7.  Post Rollout/Future Features.
 
-### Languages/Libraries/Frameworks
-
-- Django REST / Vue.js
-- CSS / HTML
-- Javascript
-- Python
-
 ### Project Milestones
 
 
@@ -39,6 +32,13 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
   | S1. Admin Start/Finish  | S2. (MVP) Framing Finish      | S3b. (MVP) Backend Finish       | S5. (MVP) UX Dev Start/Finish |
   | S2. Framing Start       | S3a. Prep Data Start/Finish   | S4. (MVP) Frontend Start/Finish | S6. Testing/Rollout           |
   |                         | S3b. Backend Start            |                                 |                               |
+
+### Languages/Libraries/Frameworks
+
+- Django REST / Vue.js
+- CSS / HTML
+- Javascript
+- Python
 
 ### S1. Administration
 
@@ -50,7 +50,7 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
   - [x] d. Create project milestone framework
   - [x] e. White board project
   - [x] f. Identify data required
-  - [ ] g. Model the models
+  - [x] g. Model the models (see Section 3b)
   - [x] h. Naming conventions/general coding notes
 
 **Notes on tasks:**
@@ -150,7 +150,7 @@ The crime_index could be derived in a number of ways; however, for the purposes 
   ```
   ```
   join_table = [                 // Join table will link users to saved housing units
-    {'id' : sysAssigned,
+    {'id' : sysAssigned,         // many-to-many relationship btw user_data and housing_data
     'user_data.id' : integer,
     'housing_data.id' : integer,
     'userNotes' : 'string',
