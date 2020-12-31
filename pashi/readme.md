@@ -101,7 +101,7 @@ Testing ongoing at each stage of manipulation to ensure data integrity.
 **Discussion on dataset logic**:  
 The crime_index could be derived in a number of ways; however, for the purposes of this app/project, the value of the offense type will be given a value of 1-20 (i.e. murder = 20, parking violation = 1) and then summed by zip-code to develop an ‘index’.  This methodology could potentially skew data (in a circumstance of a high murder rate, low overall occurance of crime), however, it appears to make the most sense over counting the number of crimes in an area (i.e. averaging data based on the severity of crime vs. treating all crimes as equal).  
 
-### S3a. Backend
+### S3b. Backend
 
   **Tasks:**
   - [ ] a. Build out Models
