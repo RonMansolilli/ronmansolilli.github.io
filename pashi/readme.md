@@ -13,8 +13,10 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
 &ensp; Section 3a.  Prepping Datasets.  Building out datasets with appropriate data.  
 &ensp; Section 3b.  App Backend.  Building out models, logic, and API.    
 &ensp; Section 4.  App Frontend.  Add functionality to the UXI - make input/output functions usable.  
-&ensp; Section 5.  Formatting UX.  Final formatting for overall website  and polished UX.  
+&ensp; Section 5.  Formatting UX.  Final formatting for overall website and polished UX.  
 &ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
+&ensp; Section 7.  Post Rollout/Future Features.
+
 
 ### Project Milestones
 
@@ -60,7 +62,10 @@ h. Code naming convention
    - [ ] a. Build django framework in project folder
    - [ ] b. Build out first model, test  
    - [ ] c. Build CSS Structure with place holders
-   - [ ] d. Build User functionality (login)
+   - [ ] d. Build user functionality (login/logout/register)
+   - [ ] e. Build user registration page
+   - [ ] f. Show welcome user info (on login)
+   - [ ] g.
 
 ### S3a. Dataset Prep
 
@@ -142,18 +147,38 @@ The crime_index could be derived in a number of ways; however, for the purposes 
 
 ### S4. Frontend  
 
+  **Features:**
+  - Should allow anonymous users access to search functionality (but no saving/notes)
+  - Registered users (when logging in) will auto-populate saved unit_search (or null if none)
+  - Reg users will also have access to notes (under each unit)
+  -
+
   **Tasks:**
-  - [ ] a. Build
+  - [ ] a. Populate drop down search box (unit_search) with unit names and a 'show all option'
+  - [ ] b. Populate drop down search box (location_search) with unit locations (by zip or area?)
+  - [ ] c. Build on_selection function to return/output single unit or multiple units based on unit_search
+  - [ ] d. Build on_selection function to return/output all units when location_search called ()
+  - [ ] e. Format output from both unit_search and location_search to include crime_index (safety_rank?)
+  - [ ] f. Ensure all output is returned based on crime_index in descending order.  
+  - [ ] g. Format output to include a Save option_box
+  - [ ] h. Dynamically provide user_notes text box on selection
+  - [ ] i.
 
+### S5. Formatting Display (UXI)
 
+  **Tasks:**
+  - [ ] a. Polish display for professional appearance
+  - [ ] b. Ensure compatibility with mobile devices (**PRIORITY**)
 
+### S6. Testing/Rollout
 
+  **Tasks:**
+  - [ ] a. Test on multiple individuals and multiple platforms
+  - [ ] b. Debug and polish
+  - [ ] c. Finish documentation
 
+### S7. Future
 
-
-
-
-  | First Header  | Second Header |
-  | ------------- | ------------- |
-  | Content Cell  | Content Cell  |
-  | Content Cell  | Content Cell  |
+**Future Development:**
+  - Build project to utilize ARCgis to display maps and locations visually.  
+  - Add Walkability index as a search parameter
