@@ -6,6 +6,13 @@
 
 Obtaining affordable housing in the City of Portland (CoP) is challenging; finding affordable housing that is also safe and desirable is even more challenging especially for those in need.  This app is designed to allow users to view their options and make informed decisions based on a location factoring in its safety for themselves and/or families.
 
+### Features
+
+- List all available units in the Portland Area designated ‘affordable’
+- List out safest units in Portland area (ranked)
+- Allow users to login, establish profile, save units, and make notes.  
+- Designed for mobile use (those in need may not have access to computers)
+
 ### Project Framework
 
 &ensp; Section 1.  Administration.  Setting up project admin, mapping project, etc.  
@@ -17,6 +24,12 @@ Obtaining affordable housing in the City of Portland (CoP) is challenging; findi
 &ensp; Section 6.  Testing/Rollout.  Independent testing. Fix edge cases, bugs.  
 &ensp; Section 7.  Post Rollout/Future Features.
 
+### Languages/Libraries/Frameworks
+
+- Django REST / Vue.js
+- CSS / HTML
+- Javascript
+- Python
 
 ### Project Milestones
 
