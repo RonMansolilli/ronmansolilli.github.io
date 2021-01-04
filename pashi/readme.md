@@ -3,7 +3,6 @@
 
 Working Link: https://mansolilli.com/pashi/test.html  
 Future Link: https://mansolilli.com/pashi/
-
 ## ##  
 **PASHI -> Portland Affordable, Safe Housing Initiative**  
 *"Giving those in need an ability to find, not only affordable, but SAFE housing in the City of Portland."*
