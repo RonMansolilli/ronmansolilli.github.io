@@ -73,14 +73,22 @@ h. Code naming convention
 
   **Tasks:**
    - [ ] a. Build django framework in project folder  
-         - Start Django project
-   - [ ] b. Build out first model, test  
-         -
-   - [ ] c. Build CSS Structure with place holders
-   - [ ] d. Build user functionality (login/logout/register)
-   - [ ] e. Build user registration page
+         - Start Django project documentation  
+         - Create app
+         - Configure settings, admin, urls
+   - [ ] b. Build out first model  
+         - See section S3b  
+         - Activate Models  
+         - Testing  
+   - [ ] c. Build CSS Structure with place holders  
+         - Setup static templates, images, and static folders  
+         - Testing
+   - [ ] d. Build user functionality (login/logout/register)   
+         - Customer User Model  
+   - [ ] e. Build user registration page and login templates  
+         - Configure with Django  
    - [ ] f. Show welcome user info (on login)
-   - [ ] g.
+         - Testing and QA
 
 ### S3a. Dataset Prep
 
@@ -177,7 +185,7 @@ The crime_index could be derived in a number of ways; however, for the purposes 
   - [ ] f. Ensure all output is returned based on crime_index in descending order.  
   - [ ] g. Format output to include a Save option_box
   - [ ] h. Dynamically provide user_notes text box on selection
-  - [ ] i.
+  - [ ] i. <blank placeholder for more tasks>
 
 ### S5. Formatting Display (UXI)
 
