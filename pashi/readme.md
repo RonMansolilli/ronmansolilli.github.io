@@ -72,7 +72,7 @@ h. Code naming convention
 ### S2. App Framework
 
   **Tasks:**
-   - [ ] a. Build django framework in project folder
+   - [ ] a. Build django framework in project folder  
          - Start Django project
    - [ ] b. Build out first model, test  
          -
