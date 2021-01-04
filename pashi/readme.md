@@ -1,6 +1,7 @@
 *Last updated:  04 Jan 2020*
 
-https://mansolilli.com/pashi/test.html
+Working Link: https://mansolilli.com/pashi/test.html
+Future Link: https://mansolilli.com/pashi/
 
 ## PASHI Documentation ##
 **PASHI -> Portland Affordable, Safe Housing Initiative**  
