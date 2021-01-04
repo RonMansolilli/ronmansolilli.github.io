@@ -73,7 +73,9 @@ h. Code naming convention
 
   **Tasks:**
    - [ ] a. Build django framework in project folder
+         - Start Django project
    - [ ] b. Build out first model, test  
+         -
    - [ ] c. Build CSS Structure with place holders
    - [ ] d. Build user functionality (login/logout/register)
    - [ ] e. Build user registration page
