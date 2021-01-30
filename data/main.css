@@ -3,10 +3,13 @@
 /************* Page formatting **********************************************/
 
 body {
-  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(sunset.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url(sunset.jpg);
   /* height: 100vh; */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  back
 }
 
 /* body form {
@@ -41,7 +44,8 @@ body {
 .header {
   grid-area: header;
   display: flex;
-  /* border: 1px white solid; */
+  border: 1px white solid;
+  text-align: center;
 }
 
 .header-logo {
@@ -49,6 +53,7 @@ body {
   /* border: 1px white solid; */
   margin-left: 1rem;
   flex-grow: 1;
+  font-size: x-large;
 }
 
 .header-logo img {
