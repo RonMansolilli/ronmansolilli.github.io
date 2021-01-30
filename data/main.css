@@ -2,185 +2,100 @@
 
 /************* Page formatting **********************************************/
 
-body {
-  background-image: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url(sunset.jpg);
-  /* height: 100vh; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  back
-}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-/* body form {
-  min-width: 100%;
+  }
+  body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: linear-gradient(45deg, #f802f5, #1c79e2);
 
-} */
 
-/* fieldset {
-  background-color: #eeeeee;
-} */
+  }
 
- .wrapper {
-  display: grid;
-  grid-gap: 5px;
-  /* grid-template-columns: 1fr 1fr; */
-  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  grid-template-areas: 
-    "header  header"
-    "title    title"
-    "tortilla tortilla"
-    /* "rice     beans" */
-    "extras   extras"
-    "persinfo persinfo"
-    "footer   footer";
-    max-width: 1000px;
-    margin: 0px auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px white solid;
-}
+  .box{
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin: 50px 10%;
+    background-color: #fff;
+    box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .box-img{
+    float: left;
+    /* height: 600px; */
+    border-radius: 15px;
+    width: 5%;
+    object-fit: cover;
+  }
+
+  .box-text{
+    float: left;
+    padding: 70px 70px 70px 35px;
+    width: 95%;
+
+  }
+
+  .box-text h1{
+    font-style: 48px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 45px;
+  }
+
+  .box-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: whitesmoke;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+  }
+
+  .box-text .social{
+    margin-top: 40px;
+  }
+
+  .box-text .social a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to left, #f802f5, #1c79e2);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 15px 0 0;
+    transition: all ease 0.5s;
+  }
+
+  .box-text .social a:hover{
+    transform: rotate(360deg)
+  }
+  
 
 /************* Header Data and Formatting *********************************/
-.header {
-  grid-area: header;
-  display: flex;
-  border: 1px white solid;
-  text-align: center;
-}
 
-.header-logo {
-  color: white;
-  /* border: 1px white solid; */
-  margin-left: 1rem;
-  flex-grow: 1;
-  font-size: x-large;
-}
 
-.header-logo img {
-  width: 225px;
-  height: auto;
-}
 
-.header-nav {
-  list-style: none;
-  /* border: 1px white solid; */
-  flex-grow: 1;
-  text-align: right;
-}
 
-.header-nav li {
-  display: inline-block;
-}
 
-.header-nav li a {
-  color: white;
-  text-decoration: none;
-  padding: 5px 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 2em;
-}
-
-.header-nav li.active a {
-  border: 1px solid white;
-}
-
-.header-nav li a:hover {
-  border: 1px solid white;
-}
 
 /************* Content Data and Formatting *********************************/
 
-.menu-title {
-  grid-area: title;
-  /* border: 1px white solid; */
-  width: auto;
-  height: auto;
-  color: wheat;
-  text-align: center;
-  /* background-color: white; */
-}
 
-.menu1 {
-  grid-area: tortilla;
-  display: flexbox;
-  flex-flow: row wrap;
-  /* min-width: 50%; */
-  /* justify-content: space-between;
-  align-content: stretch; */
-  /* flex-grow: 1; */
-}
 
-.menu1-tortilla {
-  /* flex-grow: 1; */
-  border: 1px white solid;
-  width: auto;
-  /* height: auto; */
-  /* background-color: white; */
-  /* text-align: right; */
-  color: wheat;
-}
 
-.menu1-protein {
-  /* grid-area: protein; */
-  /* flex-grow: 1; */
-  width: auto;
 
-  /* border: 1px white solid; */
-  /* width: auto;
-  height: auto; */
-  /* text-align: left; */
-  color: wheat;
-}
 
-.menu1-rice {
-  /* grid-area: rice; */
-  border: 1px white solid;
-  width: auto;
-  height: auto;
-  color: yellow;
-  /* background-color: white; */
-  /* text-align: right; */
-}
-
-.menu1-beans {
-  /* grid-area: beans; */
-  /* border: 1px white solid; */
-  /* width: auto;
-  height: auto; */
-  /* background-color: white; */
-  /* text-align: left; */
-  color: white;
-}
-
-.menu-extras {
-  grid-area: extras;
-  /* border: 1px white solid; */
-  width: auto;
-  height: auto;
-  color: wheat;
-  text-align: center;
-  color: wheat;
-}
-
-.menu-persinfo {
-  grid-area: persinfo;
-  /* border: 1px white solid; */
-  width: auto;
-  height: auto;
-  color: wheat;
-  text-align: center;
-  color: wheat;
-}
-
-.menu-footer {
-  grid-area: footer;
-  /* border: 1px white solid; */
-  width: auto;
-  height: auto;
-  color: wheat;
-  text-align: center;
-  color: wheat;
-}
 
 /************* Alternative Formatting **************************************/
 
@@ -205,182 +120,3 @@ body {
 /************* Miscelleous Test Code *************************************/
 
 
-/* 
-* {
-  margin: 10px;
-  padding: 0;
-} */
-
-/*
-
-.content {
-  grid-area: content;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  padding: 10px;
-}
-
-.services {
-  grid-area: services;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #406020;
-  color: black;
-  justify-content: center;
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
-}
-
-.services > div {
-  background-color: white;
-  flex-wrap: wrap;
-  margin: 4px;
-  padding: 4px;
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
-}
-
-.main-nav {
-  grid-area: nav;
-  background-color: #406040;
-  color: white;
-  line-height: 16px;
-  text-align: center;
-  padding: 4px;
-}
-
-.main-nav a:link, a:visited {
-  background-color: white;
-  color: black;
-  border: 1px solid green;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.main-nav a:hover, a:active {
-  background-color: green;
-  color: white;
-}
-
-.newsbar {
-  grid-area: news;
-  background-color: #406040;
-  color: black;
-  padding: 4px;
-}
-
-.newsbar > div {
-  background-color: white;
-  flex-wrap: wrap;
-  margin: 4px;
-  padding: 4px;
-}
-
-.main-footer {
-  grid-area: footer;
-  line-height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/**********************************
-HTML Elements
-**********************************/
-/*
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/**********************************
-Dynamic window applications
-**********************************/
-/*
-@media (min-width: 500px) {
-  .wrapper {
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: 
-      "logo     header"
-      "nav      nav"
-      "news     content"
-      "news     content"
-      "services services"
-      "footer   footer";
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    border-color: black;
-    border-style: solid;
-    line-height: 5px;
-    border-width: 1px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .wrapper {
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-areas: 
-      "logo    header   ."
-      "nav     content  news"
-      "nav     content  news"
-      "nav     services news"
-      "footer  footer   footer"
-   }
-
-   nav ul {
-     flex-direction: column;
-     border-color: black;
-     border-style: solid;
-     line-height: 5px;
-     border-width: 1px;
-   }
-
-   .services > div {
-     max-width: 200px;
-    }
-
-  }
-
-/**********************************
-Social Media Applications
-**********************************/
-/*
-  .fa {
-    padding: 10px;
-    font-size: 20px;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-    border-radius: 100%;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    border-radius: 100%;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-    border-radius: 100%;
-  } */
